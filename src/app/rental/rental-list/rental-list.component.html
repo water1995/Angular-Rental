@@ -1,0 +1,14 @@
+<div class="container" style="border:solid black">
+  <section id="rentalListing" style="border:solid red">
+    <h1 class="title">Your Home All Around The World</h1>
+    <div class="row" style="border:solid blue">
+
+      <div class='col-md-3 col-xs-6' style="border:solid green" *ngFor="let rental of rentals">
+        <bwm-rental-list-item [rental]="rental"></bwm-rental-list-item>
+        
+      </div>
+
+     
+    </div>
+  </section>
+</div>
